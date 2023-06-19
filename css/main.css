@@ -1,0 +1,77 @@
+
+.main-content {
+  position: relative;
+}
+.heroText {
+  border-top: 5px solid red;
+  padding: 15px 30px 25px;
+}
+.heroImg {
+  position: relative;
+  margin: 0 -15px;
+}
+.img-responsive {
+  width: 100%;
+}
+h2 {
+  line-height: 40px;
+  letter-spacing: -1px;
+}
+h5 {
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 768px) {
+  .heroText {
+    background-image: linear-gradient(to bottom,rgba(255,255,255,0.5) 0,#fff 50%,#fff 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+/* -------SUB HERO--------- */
+hr {
+  border-top: 1px solid black;
+}
+.subHeroText {
+  padding-top: -50px;
+}
+#blueBackground {
+  background-color: rgb(185, 252, 252);
+}
+
+/* --------NAV SIDE MENU------- */
+.headLineTitle {
+  font-size: 25px;
+  color: red;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  letter-spacing: 1px;
+}
+.greyBackground {
+  background-color: rgb(225, 225, 225);
+}
+.bullet {
+  position: relative;
+  padding: 15px;
+  color: red;
+  left: -20px;
+  list-style-position: inside;
+  border-bottom: solid 1px black;
+}
+.bullet-a {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+.seeAllHeadlines {
+  width: 100%;
+  font-size: 18px;
+  line-height: 50px;
+  display: block;
+  color: purple;
+}
+.seeAllHeadlines:hover {
+  opacity: .5;
+}
