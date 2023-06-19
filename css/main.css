@@ -16,9 +16,23 @@
 h2 {
   line-height: 40px;
   letter-spacing: -1px;
+  font-size: 35px;
 }
 h5 {
   font-weight: 400;
+  font-size: medium;
+}
+.usa > a {
+  color: red;
+}
+.usa > a:hover {
+  color: rgb(237, 153, 43);
+}
+a {
+  color: black;
+}
+.sponsor > a {
+  color: rgb(121, 212, 243);
 }
 
 @media only screen and (min-width: 768px) {
@@ -36,10 +50,20 @@ hr {
 }
 .subHeroText {
   padding-top: -50px;
+  padding-bottom: 80px;
+  
 }
+
 #blueBackground {
-  background-color: rgb(185, 252, 252);
+  background-color: rgb(199, 250, 250);
 }
+.sub-box-left {
+  border-right: solid 1px rgb(239, 236, 236);
+}
+.sub-wrapper {
+  border-bottom: solid 1px rgb(239, 236, 236);
+}
+
 
 /* --------NAV SIDE MENU------- */
 .headLineTitle {
@@ -65,13 +89,31 @@ hr {
   font-weight: 600;
   color: black;
 }
+li:last-child {
+  list-style-type: none;
+  border-bottom: 0;
+}
 .seeAllHeadlines {
   width: 100%;
   font-size: 18px;
   line-height: 50px;
   display: block;
-  color: purple;
+  color: black;
+  border: solid 1px black;
+  background-color: rgb(184, 178, 178);
 }
 .seeAllHeadlines:hover {
   opacity: .5;
+}
+@media only screen and (min-width:1200px) {
+  .greyBackground {
+    background-color: white;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .headLineTitle {
+    font-size: 18px;
+  }
 }
